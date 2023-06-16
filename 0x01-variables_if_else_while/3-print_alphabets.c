@@ -6,21 +6,20 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	int i;
+char ch = 'a';
+int i;
+for (i = 0; i < 26; i++)
+{
+putchar(ch);
+ch++;
+}	
+ch = 'A';
+for (i = 0; i < 26; i++)
+{
+putchar(ch);
+ch++;
+}	
+putchar('\n');
 
-	for (i = 0; i < 26; i++)
-	{
-		putchar(ch);
-		ch++;
-	}	
-	ch = 'A';
-	for (i = 0; i < 26; i++)
-	{
-		putchar(ch);
-		ch++;
-	}	
-	putchar('\n');
-
-	return (0);
+return (0);
 }
