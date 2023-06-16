@@ -6,20 +6,18 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	int i;
-
-	for (i = 0; i < 26; i++)
-	{
-		if (ch == 'q' || ch == 'e')
-		{
-			ch++;
-			continue;
-		}
-		putchar(ch);
-		ch++;
-	}	
-	putchar('\n');
-
-	return (0);
+char ch = 'a';
+int i;
+for (i = 0; i < 26; i++)
+{
+if (ch == 'q' || ch == 'e')
+{
+ch++;
+continue;
+}
+putchar(ch);
+ch++;
+}
+putchar('\n');
+return (0);
 }
