@@ -1,6 +1,6 @@
 /**
  *  _abs - finds the absolute value
- *  @: the value to get the absolute
+ *  @a: the value to get the absolute
  *
  *  Return: int
  */
