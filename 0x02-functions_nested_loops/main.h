@@ -42,5 +42,12 @@ int _isalpha(int c);
  *  Return: int
  */
 int print_sign(int n);
+/**
+ *  _abs - finds the absolute value
+ *  @: the value to get the absolute
+ *
+ *  Return: int
+ */
+int _abs(int);
 
 #endif
