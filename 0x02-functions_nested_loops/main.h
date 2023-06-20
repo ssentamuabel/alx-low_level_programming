@@ -35,5 +35,12 @@ int _islower(int c);
  *  Return: 1 if alphabet else 0
  */
 int _isalpha(int c);
+/**
+ *  print_sign - prints the sign of the input
+ *  @n: the value to check
+ *
+ *  Return: int
+ */
+int print_sign(int n);
 
 #endif
