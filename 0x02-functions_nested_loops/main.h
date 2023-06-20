@@ -49,5 +49,12 @@ int print_sign(int n);
  *  Return: int
  */
 int _abs(int);
+/**
+ *  print_last_digit - prints the last digit
+ *  @: the value to get the last digit
+ *
+ *  Return: int
+ */
+int print_last_digit(int);
 
 #endif
