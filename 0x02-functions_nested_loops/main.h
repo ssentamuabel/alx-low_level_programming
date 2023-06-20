@@ -21,5 +21,11 @@ void print_alphabet(void);
  *  Return: nothing
  */
 void print_alphabet_x10(void);
+/**
+ *  _islower(int c)- checks for lower charcter
+ *
+ *  Return: int
+ */
+int _islower(int c);
 
 #endif
