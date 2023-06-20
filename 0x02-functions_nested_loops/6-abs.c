@@ -1,3 +1,4 @@
+#include<cmath>
 /**
  *  _abs - finds the absolute value
  *  @a: the value to get the absolute
@@ -7,5 +8,5 @@
 int _abs(int a)
 {
 
-return ((unsigned int)a);
+return (abs(a));
 }
