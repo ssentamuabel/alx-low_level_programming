@@ -23,6 +23,7 @@ void print_alphabet(void);
 void print_alphabet_x10(void);
 /**
  *  _islower(int c)- checks for lower charcter
+ *  @c: the charcter to check
  *
  *  Return: int
  */
