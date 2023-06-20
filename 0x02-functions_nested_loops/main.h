@@ -14,4 +14,12 @@ int _putchar(char c);
  */
 void print_alphabet(void);
 
+
+/**
+ *  print_alphabet_x10 - prints alphabet x 10
+ *
+ *  Return: nothing
+ */
+void print_alphabet_x10(void);
+
 #endif
