@@ -8,5 +8,10 @@
  */
 int _putchar(char c);
 
+/**
+ *  print_alphaabet - prints alphabet
+ *  Retuurn: nothing
+ */
+void print_alphabet(void);
 
 #endif

@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  *  main - print _putchar
  *
@@ -6,7 +6,14 @@
  */
 int main(void)
 {
-printf("_putchar\n");
+char wd[] = "_putchar";
+int n;
+
+for (n=0; n<8; n++)
+{
+_putchar(wd[n]);
+}
+_putchar((char)10);
 
 return (0);
 }
