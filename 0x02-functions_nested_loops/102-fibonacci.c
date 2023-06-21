@@ -25,4 +25,4 @@ n2 = n3;
 }
 printf("\n");
 return (0);
-}    
+}
