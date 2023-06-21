@@ -13,7 +13,7 @@ for (i = n; i < 99; i++)
 {
 if (i != 98)
 {
-printf("% d, ", i);
+printf("% d,", i);
 }
 else
 {
