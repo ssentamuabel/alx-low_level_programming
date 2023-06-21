@@ -56,5 +56,10 @@ int _abs(int);
  *  Return: int
  */
 int print_last_digit(int);
-
+/**
+ *  jack_bauer - print time
+ *
+ *  Return: nothing
+ */
+void jack_bauer(void);
 #endif
