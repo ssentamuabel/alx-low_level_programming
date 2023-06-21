@@ -74,4 +74,11 @@ void times_table(void);
  *  Return: int
  */
 int add(int, int);
+/**
+ *  print_to_98 - print from n to 98
+ *  @n:  the starting point of printing
+ *
+ *  Return: nothing
+ */
+void print_to_98(int n);
 #endif
