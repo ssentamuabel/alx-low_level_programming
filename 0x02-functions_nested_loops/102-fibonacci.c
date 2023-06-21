@@ -1,25 +1,15 @@
-#include<stdio.h>
-/**
- *  main - print fibonnaci numbers
- *
- *  Return: 0 or success
- */
-int main(void)
-{
-	int first = 1;
-	int last = 2;
-	int temp;
-	int i;
+#include<stdio.h>    
+int main()    
+{    
+ int n1 = 1, n2 = 2, n3, i;    
 
-	for (i = 1; i < 50; i++)
-	{
-		
-		printf("%d, ", first);
-		temp = first;
-		first = last;
-		last = last + temp;
-	}
-	printf("\n");
-
-	return  (0);
-}
+ printf("%d, %d, ", n1, n2);    
+ for (i = 2; i < 50; ++i)   
+ {    
+  n3 = n1 + n2;    
+  printf("%d, ", n3);    
+  n1 = n2;    
+  n2 = n3;    
+ }  
+  return (0);  
+ }    
