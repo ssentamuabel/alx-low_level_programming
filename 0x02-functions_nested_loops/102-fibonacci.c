@@ -20,4 +20,6 @@ int main(void)
 		last = last + temp;
 	}
 	printf("\n");
+
+	return  (0);
 }
