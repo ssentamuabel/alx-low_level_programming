@@ -62,4 +62,10 @@ int print_last_digit(int);
  *  Return: nothing
  */
 void jack_bauer(void);
+/**
+ *  times_table
+ *
+ *  Return: void
+ */
+void times_table(void);
 #endif
