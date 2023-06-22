@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  print_most__numbers - print numbers less 2 and 4
+ *  print_most__numbers - print numbers less i
  *  Return: nothing
  */
 void print_most_numbers(void)
