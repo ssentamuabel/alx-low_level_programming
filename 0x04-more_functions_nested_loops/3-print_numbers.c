@@ -5,13 +5,13 @@
  */
 void print_numbers(void)
 {
-int i;
+	int i;
 
-for (i = 48; i < 58; i++)
-{
-_putchar((char)i);
-}
-_putchar((char)10);
-
-return;
+	for (i = 48; i < 58; i++)
+	{
+		_putchar((char)i);
+	}
+	_putchar((char)10);
+	
+	return;
 }
