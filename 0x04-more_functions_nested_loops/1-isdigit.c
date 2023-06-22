@@ -5,15 +5,14 @@
  */
 int _isdigit(int c)
 {
-	int n;
-	if (n > 47 && n < 58)
+	if (c > 47 && c < 58)
 	{
-		n = 1;
+		c = 1;
 	}
 	else
 	{
-		n = 0;
+		c = 0;
 	}
 
-	return (n);
+	return (c);
 }
