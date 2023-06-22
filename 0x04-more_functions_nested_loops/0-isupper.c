@@ -8,6 +8,7 @@
 int _isupper(int c)
 {
 int n;
+
 if (c > 64 && c < 92)
 {
 n = 1;
