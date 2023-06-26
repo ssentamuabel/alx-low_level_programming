@@ -19,4 +19,11 @@ void swap_int(int *a, int *b);
  *  Return: int 
  */
 int _strlen(char *s);
+/**
+ *  _puts - puts string
+ *  @s: pointer to the string 
+ *  Return: nothg
+ */
+void _puts(char *str);
+int _putchar(char c);
 #endif
