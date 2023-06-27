@@ -32,4 +32,11 @@ int _putchar(char c);
  *  Return: void
  */
 void print_rev(char *s);
+/**
+ * rev_string - reverse a string 
+ * @s: the pointer that holds the string
+ * Return: void
+ */
+ void rev_string(char *s);
+
 #endif
