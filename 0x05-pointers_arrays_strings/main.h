@@ -50,4 +50,8 @@ void puts2(char *str);
  *  @n: the number of arrays to be printed
  */
 void print_array(int *a, int n);
+/**
+ * _strcpy(char *dest, char
+ */
+char *_strcpy(char *dest, char *src);
 #endif
