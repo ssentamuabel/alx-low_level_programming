@@ -44,4 +44,10 @@ void print_rev(char *s);
   *  Return: void
   */
 void puts2(char *str);
+/**
+ *  print_array - print the elements in the array
+ *  @a: array pointer
+ *  @n: the number of arrays to be printed
+ */
+void print_array(int *a, int n);
 #endif
