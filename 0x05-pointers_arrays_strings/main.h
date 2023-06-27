@@ -38,5 +38,10 @@ void print_rev(char *s);
  * Return: void
  */
  void rev_string(char *s);
-
+ /**
+  *  puts2 - put characters in odd
+  *  @str: the pointer pointing to the string
+  *  Return: void
+  */
+void puts2(char *str);
 #endif
