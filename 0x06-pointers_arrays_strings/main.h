@@ -21,4 +21,13 @@ char *_strncat(char *dest, char *src, int n);
  *  @n: this is the number of a character
  */
 char *_strncpy(char *dest, char *src, int n);
+/**
+ *  _strcmp - compare strings
+ *
+ *  @s1: pointer to the string to compare
+ *  @s2: pointer to the second string
+ *
+ *  Return: int 
+ */
+int _strcmp(char *s1, char *s2);
 #endif
