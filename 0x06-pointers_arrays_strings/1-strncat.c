@@ -2,6 +2,8 @@
  *  _strncat - concatenate a string
  *  @dest: the destination string
  *  @src: the source string
+ *  @n: the number of characters to copy
+ *  Return: address of the first element
  */
 char *_strncat(char *dest, char *src, int n)
 {
