@@ -39,4 +39,10 @@ int _strcmp(char *s1, char *s2);
  *  Return: int
  */
 void reverse_array(int *a, int n);
+/**
+ *  string_toupper - change to upper
+ *
+ *  Return: address to pointer
+ */
+char *string_toupper(char *);
 #endif
