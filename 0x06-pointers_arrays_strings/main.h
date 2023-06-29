@@ -30,4 +30,13 @@ char *_strncpy(char *dest, char *src, int n);
  *  Return: int 
  */
 int _strcmp(char *s1, char *s2);
+/**
+ *  reverse_array - reverses the array
+ *
+ *  @a: the pointer to the array
+ *  @n: the number of elements in the array
+ *
+ *  Return: int
+ */
+void reverse_array(int *a, int n);
 #endif
