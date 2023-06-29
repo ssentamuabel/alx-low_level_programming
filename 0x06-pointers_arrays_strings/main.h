@@ -45,4 +45,13 @@ void reverse_array(int *a, int n);
  *  Return: address to pointer
  */
 char *string_toupper(char *);
+/**
+ *  print_number - print number
+ *
+ *  @n: the number to print
+ *
+ *  Return: void
+ */
+void print_number(int n);
+int _putchar(char c); 
 #endif
