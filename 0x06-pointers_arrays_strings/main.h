@@ -53,5 +53,18 @@ char *string_toupper(char *);
  *  Return: void
  */
 void print_number(int n);
-int _putchar(char c); 
+int _putchar(char c);
+/**
+ *  cap_string - capitalize all the words
+ *
+ *  Return: address to the string
+ */
+char *cap_string(char *);
+/**
+ *  leet - replace the character
+ *  @str: the stirng to check
+ *
+ *  Return: the address to the string
+ */
+char *leet(char *str);
 #endif

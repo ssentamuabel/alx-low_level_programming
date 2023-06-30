@@ -1,7 +1,9 @@
 /**
- *  _strcat - concatenate a string
- *  @dest: the destination string
- *  @src: the source string
+ * _strcat - concatenate a string
+ * @dest: the destination string
+ * @src: the source string
+ *
+ * Return: pointer to the result
  */
 char *_strcat(char *dest, char *src)
 {
