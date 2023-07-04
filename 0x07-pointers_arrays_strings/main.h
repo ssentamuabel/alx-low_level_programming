@@ -27,6 +27,27 @@ void set_string(char **s, char *to);
  *  Return: the address of the destination
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
+/**
+ * _strchr - search for a character
+ * @s: the address of the string
+ * @c: the character to check for 
+ *
+ * Return: the address of the string
+ */
 char *_strchr(char *s, char c);
+/**
+ *  _strspn - print the number of characters not in the string
+ *
+ *  @s : the address of the string
+ *  @accept: the addrss of the string to check for
+ *
+ *  Return: int
+ */
 unsigned int _strspn(char *s, char *accept);
+/**
+ *  _print_chessboard- prints the chess board
+ *
+ *  Return: void
+ */
+void print_chessboard(char (*a)[8]);
 #endif
