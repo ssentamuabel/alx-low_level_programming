@@ -8,4 +8,12 @@ int _putchar(char c);
  *  Return: null
  */
 void _puts_recursion(char *s);
+/**
+ *  is_palindrome - checks for a palindrome
+ *
+ *  @s: the address of the character
+ *
+ *  Return: int
+ */
+int is_palindrome(char *s);
 #endif
