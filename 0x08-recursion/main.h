@@ -62,4 +62,11 @@ int _strlen_recursion(char *s);
  *  Return: int
  */
 int factorial(int n);
+/**
+ *  is_prime_number - prints prime numbers
+ *  @n: the number to check
+ *
+ *  Return: int
+ */
+int is_prime_number(int n);
 #endif
