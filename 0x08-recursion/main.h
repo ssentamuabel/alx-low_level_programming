@@ -55,4 +55,11 @@ int _sqrt_recursion(int n);
  *  Return: int
  */
 int _strlen_recursion(char *s);
+/**
+ *  factorial - find the factorial
+ *  @n: the number to get the factorial
+ *
+ *  Return: int
+ */
+int factorial(int n);
 #endif
