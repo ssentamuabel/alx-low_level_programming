@@ -48,4 +48,11 @@ int _pow_recursion(int x, int y);
  *  Return: int
  */
 int _sqrt_recursion(int n);
+/**
+ *  _strlen_recursion - the length of the string
+ *  @s: address of the string
+ *
+ *  Return: int
+ */
+int _strlen_recursion(char *s);
 #endif
