@@ -1,3 +1,10 @@
+/**
+ *  helper - monitor the index
+ *  @n: the value to check
+ *  @i: the index ot truck
+ *
+ *  Return: int
+ */
 int helper(int n, int i)
 {
 	if (i > (n / 2))
