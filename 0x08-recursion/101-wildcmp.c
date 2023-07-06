@@ -4,7 +4,7 @@
  *  @s1: the first string to compare with
  *  @s2: the second string to compare to
  *
- *  Return: int 
+ *  Return: int
  */
 int wildcmp(char *s1, char *s2)
 {
@@ -20,7 +20,7 @@ int wildcmp(char *s1, char *s2)
 		}
 		else
 		{
-			return (wildcmp( s1 + 1, s2) || wildcmp(s1, s2 + 1));
+			return (wildcmp(s1 + 1, s2) || wildcmp(s1, s2 + 1));
 		}
 	}
 	if (*s1 == *s2)
