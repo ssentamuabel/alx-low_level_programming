@@ -10,6 +10,8 @@ int helper(int x, int y, int n)
 	{
 		return (x);
 	}
+	if (y == 0)
+		return (1);
 	return (x * helper(x, y, n + 1));
 }
 /**
