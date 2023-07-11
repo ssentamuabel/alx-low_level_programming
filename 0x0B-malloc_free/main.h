@@ -15,4 +15,12 @@ char *create_array(unsigned int size, char c);
  *  Return: the address of a new duplicate
  */
 char *_strdup(char *str);
+/**
+ *  str_concat - concatenates two strings
+ *  @s1: the first string
+ *  @s2: the second string
+ *
+ *  Return: address to the concatenated string
+ */
+char *str_concat(char *s1, char *s2);
 #endif
