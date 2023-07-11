@@ -1,7 +1,7 @@
 #include<stdlib.h>
 /**
  *  _strdup -  duplicate a string
- *  @str - address of the string to duplicate
+ *  @str:address of the string to duplicate
  *
  *  Return: the address of a new duplicate
  */
