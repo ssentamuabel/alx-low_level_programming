@@ -8,4 +8,11 @@
  *  Return: the address of the memory
  */
 char *create_array(unsigned int size, char c);
+/**
+ *  _strdup -  duplicate a string
+ *  @str - address of the string to duplicate
+ *
+ *  Return: the address of a new duplicate
+ */
+char *_strdup(char *str);
 #endif
