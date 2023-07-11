@@ -11,6 +11,8 @@ char *str_concat(char *s1, char *s2)
 	int count = 0, count2 = 0, i = 0, j = 0;
 	char *new = 0;
 
+	if ((s1 == NULL) && (s2 == NULL))
+		return (NULL);
 	while (s1[count] != '\0')
 		count++;
 	while (s2[count2] != '\0')
