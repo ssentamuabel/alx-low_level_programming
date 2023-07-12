@@ -50,4 +50,12 @@ unsigned int _strspn(char *s, char *accept);
  *  Return: void
  */
 void print_chessboard(char (*a)[8]);
+/**
+ *  _strpbrk - tress a pattern of words
+ *  @s: the address of the string
+ *  @accept: the string to look for
+ *
+ *  Return: address of the string
+ */
+char *_strpbrk(char *s, char *accept);
 #endif
