@@ -23,4 +23,12 @@ char *_strdup(char *str);
  *  Return: address to the concatenated string
  */
 char *str_concat(char *s1, char *s2);
+/**
+ *  alloc_grid - to make a grid
+ *  @width: the rows of the grid
+ *  @height: the columns of the  grid
+ *
+ *  Return: address
+ */
+int **alloc_grid(int width, int height);
 #endif
