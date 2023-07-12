@@ -20,7 +20,16 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	/* reserve space for the pointers to values */
 	for (i = 0; i < height; i++)
-		new[i] = (int *)malloc(width * sizeof(int *));
+	{
+		new[i] = (int *)malloc(width * sizeof(int));
+		if (new[i] == NULL)
+		{
+			for (j = 0; j < i; j++)
+				free(new[j]);
+			free(new);
+			return (NULL);
+		}
+	}
 	/* Assigning values to the address */
 	for (i = 0; i < height; i++)
 	{
