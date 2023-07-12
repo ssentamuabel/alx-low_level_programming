@@ -31,4 +31,12 @@ char *str_concat(char *s1, char *s2);
  *  Return: address
  */
 int **alloc_grid(int width, int height);
+/**
+ *  free_grid - free memory
+ *
+ *  @grid: the memory address 
+ *  @height: the number of rows
+ *  Return: void
+ */
+void free_grid(int **grid, int height);
 #endif
