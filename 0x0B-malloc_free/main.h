@@ -39,4 +39,11 @@ int **alloc_grid(int width, int height);
  *  Return: void
  */
 void free_grid(int **grid, int height);
+/**
+ *  -strtow - splits a string into words
+ *  @str: the address of the string
+ *
+ *  Return: the address to the array of strings
+ */
+char **strtow(char *str);
 #endif
