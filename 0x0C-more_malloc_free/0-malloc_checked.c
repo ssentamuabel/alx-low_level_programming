@@ -10,6 +10,6 @@ void *malloc_checked(unsigned int b)
 	int *ptr = (int *)malloc(b);
 
 	if (ptr == NULL)
-		return (NULL);
+		exit (96);
 	return (ptr);
 }
