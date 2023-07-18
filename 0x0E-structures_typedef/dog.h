@@ -8,12 +8,12 @@
  *
  *  Description: the is a test
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 /**
  *  init_dog - initializes the struct
  *  @d: pointer to the struct
