@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ *  _putchar - print the character
+ *  @c: the charater to print
+ *
+ *  Return: int
+ */
 int _putchar(char c)
 {
 	static char buf[1024];

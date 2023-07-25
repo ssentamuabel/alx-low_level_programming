@@ -14,6 +14,6 @@ int _printf(const char *format, ...);
 void print_percent(va_list args);
 void print_string(va_list args);
 void print_char(va_list args);
-void v_printf(const char *format, va_list args);
+int v_printf(const char *format, va_list args);
 #endif
 
