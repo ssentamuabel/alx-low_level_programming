@@ -58,7 +58,7 @@ char *argstostr(int ac, char **av)
 	}
 
 	/* allocate memory for the new string */
-	ptr = (char *)malloc(sizeof(char) * total_len);
+	ptr = (char *)malloc(sizeof(char) * (total_len - 1));
 	if (ptr == NULL)
 		return (NULL);
 
