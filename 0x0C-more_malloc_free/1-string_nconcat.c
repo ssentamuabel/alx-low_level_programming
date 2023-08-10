@@ -32,6 +32,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= lens2)
 		n = lens2;
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	/* reserve space */
 	total = lens1 + n;
 	ptr = (char *)malloc(sizeof(char) * (total + 1));
