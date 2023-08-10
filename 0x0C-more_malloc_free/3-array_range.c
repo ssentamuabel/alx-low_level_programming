@@ -1,4 +1,11 @@
 #include "main.h"
+/**
+ *  array_range - array of range
+ *  @min: the minimum value
+ *  @max: the maximum value
+ *
+ *  Return: int
+ */
 int *array_range(int min, int max)
 {
 	int *ptr = NULL;
@@ -8,15 +15,10 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 	total = (max - min) + 1;
-	
 	ptr = (int *)malloc(sizeof(int) * total);
 	if (ptr == NULL)
 		return (NULL);
-
 	for (i = 0; i < total; i++)
-	{
-		ptr[i] = min + 1;
-	}
-
+		ptr[i] = i;
 	return (ptr);
 }
