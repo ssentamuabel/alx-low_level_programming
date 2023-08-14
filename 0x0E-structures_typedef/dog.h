@@ -7,13 +7,13 @@
  *  @age: age of the dog
  *  @owner: pointer to the owner
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 
-};
+} dog_t;
 
 /* functions  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
