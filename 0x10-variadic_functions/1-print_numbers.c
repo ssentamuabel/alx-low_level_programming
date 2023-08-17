@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 #include<stdio.h>
 /**
- *  print_number - prints the number
+ *  print_numbers - prints the number
  *  @separator: the address of the separator
  *  @n: the number of numbers
  *
@@ -17,10 +17,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(list, int));
 
-		if (i != (n - 1))
+		if (i != (n - 1) && separator != NULL)
 		{
-			if (separator != NULL)
-				printf("%c ", *separator);
+			printf("%s ", separator);
 		}
 	}
 
