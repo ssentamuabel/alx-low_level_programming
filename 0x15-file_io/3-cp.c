@@ -50,7 +50,7 @@ int main(int arg, char *argv[])
 		nchars = read(file_from, buff, 1024);
 		if (nchars == -1)
 			error(-1, 0, argv);
-		nwr = write(file_to, buff, 1024);
+		nwr = write(file_to, buff, nchars);
 		if (nwr == -1)
 			error(0, -1, argv);
 	}
